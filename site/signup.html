@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="ecc,ECC,ecc comp.,...">
+<meta name="description" content="ここに説明文を設定">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@twitteraccount">
+<meta property="og:site_name" content="サイト名">
+<meta property="og:title" content="サイトタイトル">
+<meta property="og:description" content="サイト説明文">
+<meta property="og:type" content="website">
+<title>サイト名</title>
+<link rel="canonical" hreflang="http://">
+<link rel="alternate" type="" title="" href="http://">
+<!-- <link rel="shortcut icon" href="http://www.hoge.hoge/favicon.ico" type=""> -->
+<!-- <link rel="apple-touch-icon" href="http://www.hoge.hoge/logo.png"> -->
+<!-- cssの読み込み -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/ress.css">
+<link href="css/signup.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!----------- HEADER START ---------------------> 
+<header class="griddy">
+ <div class="head griddy"> 
+  <h1 class="logo">ECC</h1>
+
+  <div class="header card__header menu">
+        <a href="#" class="header__icon">
+          <img src="img/menuW.svg" class="burger">
+        </a>
+  </div>  
+  </div>     
+</header>
+<!----------- HEADER FINISH ---------------------> 
+
+<!----------- MAIN START ---------------------> 
+<main>
+<div class="content griddy">
+  <h2 class="title">Admin</h2>
+
+  <div class="boxes griddy">
+    <a class="box1" href="signup.html">
+      <p>Sign Up</p>
+    </a>
+    <a class="box2 hovers" href="signin.html">
+      <p>Log In</p>
+    </a>  
+  </div>
+
+  <div class="signform griddy">
+    <form action="" class="griddy">
+    <label for="fname" class="labels">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." class="signup"> <br>
+
+    <label for="lname" class="labels">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="signup"> <br>
+
+     <label for="lname" class="labels">Student Number</label>
+    <input type="text" id="studentN" name="studentnumber" placeholder="Your Student number.." class="signup" maxlength="7"> <br>
+
+    <label for="psw" class="labels">Password</label>
+    <input type="password" id="password" name="pwd" placeholder="Set a password" class="signup" maxlength="15"> <br>
+
+
+    <label for="country" class="labels">School</label>
+    <select id="country" name="country" class="signup">
+      <option value="Computer">---</option>
+      <option value="Computer">ECCコンピューター専門学校</option>
+      <option value="Artist">ECCアーティスト美容専門学校</option>
+      <option value="Kokusai">ＥＣＣ国際外語専門学校・日本語学科</option>
+    </select> <br>
+  
+    <input type="submit" value="Register" class="register">
+  </form>
+  </div>
+  
+</div>
+</main>
+<!----------- MAIN FINISH ---------------------> 
+
+<!----------- FOOTER START --------------------->
+<footer class="bottom">
+
+  <div class="footer griddy">
+    <small>&copy; MOMOI</small>
+  </div>
+
+
+</footer> 
+<!----------- FOOTER FINISH ---------------------> 
+
+</body>
+</html>
